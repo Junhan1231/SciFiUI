@@ -1,8 +1,8 @@
 # SciFi UI Project
 
-Name:
+Name: Junhan Dang
 
-Student Number: 
+Student Number: D18123630
 
 Fork this repository and use it a starter project for your assignment
 
