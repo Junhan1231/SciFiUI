@@ -38,7 +38,7 @@ public class NewUI extends PApplet{
     
     
       for (int i = 0; i < resolution; i++) {
-        //計算 i是第幾顆
+        
         float angle = (float) (map(i, 0, resolution, 0, TWO_PI*2) +frameCount/10.0);
         //float waveOffset = sin(angle*circles) * 200;
     
@@ -65,7 +65,7 @@ public class NewUI extends PApplet{
         
 
   
-    
+        //Draw the circle
         noFill();
         stroke(255, 100);
         strokeWeight(1);
@@ -132,17 +132,7 @@ public class NewUI extends PApplet{
         arc(0, 0, 140, 140, -radians(y-180), radians(90));
         if(y >= 270){
           y = 100;
-        }
-        /*
-        for(int i= 0; i< 180; i+=179){
-          stroke(73, 159, 232,50);
-          strokeWeight(20);
-          arc(0, 0, 220, 220, radians(i-30), radians(i+90));
-          stroke(232, 73, 75);
-          arc(0, 0, 220, 220, radians(i), radians(i+50));
-        }
-        */
-    
+
         popMatrix();
 
 
@@ -159,7 +149,7 @@ public class NewUI extends PApplet{
         strokeWeight(1);
         ellipse(0 ,0 , 280, 280);
         for(int i=0; i< 10; i++){
-          //用來切割上方大環
+            
           float offsect = (float) (i*PI/5 + offset/100.0);
           stroke(10,10,30);
           strokeWeight(1);
