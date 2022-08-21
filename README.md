@@ -78,7 +78,8 @@ This is an image:
 ![An image](images/123123123123123.PNG)
 
 And this part here shows the Airships type and how many people are in this ship(Loading csv files)
-![[An image](img/11111111111.PNG)
+![An image](images/11111111111.PNG)
+
 
 
 This is a youtube video:
