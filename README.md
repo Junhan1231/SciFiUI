@@ -70,7 +70,7 @@ The circle in the middle of the screen reflects the flow of energy throughout th
 # What I am most proud of in the assignment
 
 What I am most pleased with and proud of in this task is the energy display system in the middle（circle）, which I think is a good representation of the Sci-fi element. When it rotates, it's like you can see for yourself how much energy is being used.
-![An image](images/)
+![An image](images/sada2.PNG)
 
 
 This is an image:
