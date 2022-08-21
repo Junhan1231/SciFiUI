@@ -4,7 +4,6 @@ Name: Junhan Dang
 
 Student Number: D18123630
 
-Fork this repository and use it a starter project for your assignment
 
 # Description of the assignment
 In this assignment we need to use the acknowledgethat  we have learnt in the class such as arrays variables and loops.to implement a sci-fi user interface using java processing.I've been thinking about this theme for a long time and finally decided to do my best to build a spaceship display system.
