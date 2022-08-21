@@ -86,7 +86,7 @@ This is an image:
 
 This is a youtube video:
 
-[![YouTube](https://www.youtube.com/watch?v=Kl122385tjw)
+(https://www.youtube.com/watch?v=Kl122385tjw)
 
 This is a table:
 
