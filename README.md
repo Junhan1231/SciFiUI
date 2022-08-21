@@ -69,24 +69,6 @@ The circle in the middle of the screen reflects the flow of energy throughout th
         arc(0, 0, 175, 175, radians(288), radians(348));
 # What I am most proud of in the assignment
 
-# Markdown Tutorial
-
-This is *emphasis*
-
-This is a bulleted list
-
-- Item
-- Item
-
-This is a numbered list
-
-1. Item
-1. Item
-
-This is a [hyperlink](http://bryanduggan.org)
-
-
-
 This is an image:
 
 ![An image](images/123123123123123.PNG)
