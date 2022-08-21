@@ -61,13 +61,10 @@ public void render()
 }
 ```
 
-This is an image using a relative URL:
+This is an image:
 
 ![An image](images/123123123123123.PNG)
 
-This is an image using an absolute URL:
-
-![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
 
 This is a youtube video:
 
