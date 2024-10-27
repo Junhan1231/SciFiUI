@@ -1,0 +1,116 @@
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3;
+    margin: 0;
+    padding: 0;
+}
+
+/* 顶部按钮区域 */
+#header {
+    background-color: #505050;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header button {
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid black;
+    background-color: lightgray;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#header button:hover {
+    background-color: #c0c0c0;
+}
+
+/* 主内容区域 */
+#main-app {
+    background-color: #d3d3d3;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 创建人员的表单 */
+#create-person-form {
+    padding: 20px;
+    width: 400px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#create-person-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+
+#create-person-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+#create-person-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 22px); /* 确保输入框两边留有空隙 */
+}
+
+#create-person-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid black;
+    background-color: lightgray;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#create-person-form button:hover {
+    background-color: #c0c0c0;
+}
+
+/* 提交后的成功消息 */
+#success-message {
+    padding: 10px;
+    color: black;
+    margin-top: 20px;
+    display: none;
+    text-align: center;
+}
+
+/* 列表样式 */
+#people-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#people-list th, #people-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+#people-list th {
+    background-color: #505050;
+    color: white;
+}
+
+#people-list td {
+    background-color: #f9f9f9;
+}
